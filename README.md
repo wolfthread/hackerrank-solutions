@@ -2,6 +2,8 @@
 
 Most of my [HackerRank](https://www.hackerrank.com/wolfthread) solutions.
 
+## Table Of Content
+
 | Category                                       | Subdomain                                   | Difficulty                             |
 | ---------------------------------------------- | ------------------------------------------- | -------------------------------------- |
 | [10 Days of JavaScript](10-days-of-javascript) |                                             |                                        |
