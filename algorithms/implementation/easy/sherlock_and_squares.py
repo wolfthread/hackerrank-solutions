@@ -1,11 +1,5 @@
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
-
 # Complete the squares function below.
 """
 this initial brute-force approach times out
@@ -34,17 +28,3 @@ def squares(a, b):
     ans = len([x for x in range(low_range[1], high_range[0]+1)])
    
     return ans
-
-if __name__ == '__main__':
-    q = int(input())
-
-    for q_itr in range(q):
-        ab = input().split()
-
-        a = int(ab[0])
-
-        b = int(ab[1])
-
-        result = squares(a, b)
-
-        print(str(result) + '\n')
