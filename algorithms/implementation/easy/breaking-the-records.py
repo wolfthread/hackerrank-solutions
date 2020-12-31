@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-
-import sys
-
 n = int(input().strip())
 s = list(map(int, input().strip().split(' ')))
 maxim = s[0]

@@ -8,7 +8,6 @@ def kaprekarNumbers(p, q):
         else:
             l = square[:len(n)-1]
             r = square[len(n)-1:]
-        #print("for {}, left is: {} and right is {}, square is {}".format(n, l, r, square))            
         return l, r
 
     def checkIfKaprekar(x):

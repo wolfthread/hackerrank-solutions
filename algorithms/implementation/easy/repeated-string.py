@@ -1,3 +1,4 @@
+
 def repeatedString(s, n):
     l_of_string = len(s)
     remainder = n % l_of_string
