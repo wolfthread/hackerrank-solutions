@@ -1,7 +1,5 @@
 #!/bin/python3
 
-
-# Complete the minimumDistances function below.
 def minimumDistances(a, n):
     minVal = 1000
     for i in range(n):
