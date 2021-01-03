@@ -11,3 +11,4 @@ Most of my [HackerRank](https://www.hackerrank.com/wolfthread) solutions.
 | [Algorithms](algorithms)                       | [Warmup](algorithms/warmup)                            | [Easy](algorithms/warmup/easy)         |
 | [Algorithms](algorithms)                       | [Implementation](algorithms/implementation)            | [Easy](algorithms/implementation/easy) |
 | [Algorithms](algorithms)                       | [Strings](algorithms/strings)                          | [Easy](algorithms/strings/easy)        |
+| [Algorithms](algorithms)                       | [Sorting](algorithms/sorting)                          | [Easy](algorithms/strings/easy)        |
