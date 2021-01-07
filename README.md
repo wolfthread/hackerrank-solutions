@@ -12,3 +12,4 @@ Most of my [HackerRank](https://www.hackerrank.com/wolfthread) solutions.
 | [Algorithms](algorithms)                       | [Implementation](algorithms/implementation)            | [Easy](algorithms/implementation/easy) |
 | [Algorithms](algorithms)                       | [Strings](algorithms/strings)                          | [Easy](algorithms/strings/easy)        |
 | [Algorithms](algorithms)                       | [Sorting](algorithms/sorting)                          | [Easy](algorithms/sorting/easy)        |
+| [Project Euler](project-euler)                 |                                                        | [Easy](project-euler/easy)             |
