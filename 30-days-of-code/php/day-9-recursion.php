@@ -21,3 +21,4 @@ fwrite($fptr, $result . "\n");
 
 fclose($stdin);
 fclose($fptr);
+?>

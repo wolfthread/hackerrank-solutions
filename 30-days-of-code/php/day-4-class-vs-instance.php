@@ -30,3 +30,4 @@ class Person{
 }
 
 $T = intval(fgets(STDIN));
+?>

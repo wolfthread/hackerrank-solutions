@@ -20,3 +20,4 @@ fscanf($stdin, "%d\n", $tax_percent);
 solve($meal_cost, $tip_percent, $tax_percent);
 
 fclose($stdin);
+?>
