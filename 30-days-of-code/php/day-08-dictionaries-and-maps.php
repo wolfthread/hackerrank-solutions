@@ -21,6 +21,5 @@ do {
     };
 } while ($querying);
 
-
 fclose($stdin);
 ?>
