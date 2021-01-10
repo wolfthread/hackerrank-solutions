@@ -1,3 +1,5 @@
+#!/bin/python3
+
 def isMult(num, k):
     while num % k != 0:
         num -= 1
