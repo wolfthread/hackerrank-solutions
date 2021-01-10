@@ -1,13 +1,6 @@
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
-#include <map>
 using namespace std;
 
-int main()
-{
+int main() {
   map<string, int> m;
   int n;
   cin >> n;

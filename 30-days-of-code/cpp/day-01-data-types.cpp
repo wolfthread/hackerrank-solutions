@@ -33,3 +33,4 @@ int main() {
     // The 's' variable above should be printed first.
 
     return 0;
+}

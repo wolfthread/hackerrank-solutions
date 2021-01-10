@@ -1,11 +1,7 @@
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
 #include <string>
 using namespace std;
-class Book{
+
+class Book {
     protected:
         string title;
         string author;
@@ -19,7 +15,7 @@ class Book{
 };
 
 // Write your MyBook class here
-class MyBook: public Book{
+class MyBook: public Book {
   private:
     float price;
   public:

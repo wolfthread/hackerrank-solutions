@@ -4,8 +4,7 @@ using namespace std;
 
 vector<string> split_string(string);
 
-int main()
-{
+int main() {
     int n;
     cin >> n;
     cin.ignore(numeric_limits<streamsize>::max(), '\n');

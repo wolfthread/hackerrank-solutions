@@ -1,10 +1,9 @@
-#include <iostream>
 #include <vector>
 
 using namespace std;
 
 
-class Person{
+class Person {
 	protected:
 		string firstName;
 		string lastName;
@@ -21,7 +20,7 @@ class Person{
 	
 };
 
-class Student :  public Person{
+class Student :  public Person {
 	private:
 		vector<int> testScores;  
 	public:

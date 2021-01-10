@@ -11,8 +11,7 @@ int factorial(int n) {
     };
 }
 
-int main()
-{
+int main() {
     ofstream fout(getenv("OUTPUT_PATH"));
 
     int n;

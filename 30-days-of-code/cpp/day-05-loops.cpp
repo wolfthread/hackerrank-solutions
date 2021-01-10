@@ -2,10 +2,7 @@
 
 using namespace std;
 
-
-
-int main()
-{
+int main() {
     int n;
     cin >> n;
     cin.ignore(numeric_limits<streamsize>::max(), '\n');

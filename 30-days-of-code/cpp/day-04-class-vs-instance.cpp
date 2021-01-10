@@ -1,7 +1,7 @@
 using namespace std;
 #include <iostream>
 
-class Person{
+class Person {
     public:
         int age;
         Person(int initialAge);
@@ -9,7 +9,7 @@ class Person{
         void yearPasses();
     };
 
-    Person::Person(int initialAge){
+    Person::Person(int initialAge) {
         if (initialAge < 0) {
             cout << "Age is not valid, setting age to 0." << endl;
             age = 0;
@@ -18,7 +18,7 @@ class Person{
         }
     }
 
-    void Person::amIOld(){
+    void Person::amIOld() {
         if (age < 13) {
             cout << "You are young." << endl;
         } else if (age >= 13 && age < 18) {
@@ -28,11 +28,11 @@ class Person{
         }
     }
 
-    void Person::yearPasses(){
+    void Person::yearPasses() {
         age++;
     }
 
-int main(){
+int main() {
     int t;
 	int age;
     cin >> t;
