@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 // We use a, b and n to create the following series:
-// (a + 2^0*b), (a + 2^0*b + 2^1*b),...,(a + 2^0*b + 2^1 + ... + 2^n-1*b)
+// (a + 2^0*b), (a + 2^0*b + 2^1*b),...,(a + 2^0*b + 2^1*b + ... + 2^n-1*b)
 
 class Solution{
     public static void main(String []argh){
