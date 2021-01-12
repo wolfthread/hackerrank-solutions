@@ -18,4 +18,4 @@ Most of my [HackerRank](https://www.hackerrank.com/wolfthread) solutions.
 |                                                | [Conditional Statements in C](conditional-statements-in-c) |                                        |
 | [C++](cpp)                                     | [Introduction](cpp/introduction)                           |                                        |
 | [Java](java)                                   | [Introduction](java/introduction)                          |                                        |
-| [Project Euler](project-euler)                 |                                                            | [Easy](project-euler/easy)             |
+| [Project Euler](project-euler)                 |                                                            |                                        |
