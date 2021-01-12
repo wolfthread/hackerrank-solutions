@@ -9,6 +9,7 @@ Most of my [HackerRank](https://www.hackerrank.com/wolfthread) solutions.
 | [10 Days of JavaScript](10-days-of-javascript) |                                                            |                                        |
 | [30 Days Of Code](30-days-of-code)             | [C++](30-days-of-code/cpp)                                 |                                        |
 |                                                | [PHP](30-days-of-code/php)                                 |                                        |
+|                                                | [Java](30-days-of-code/java)                               |                                        |
 | [Algorithms](algorithms)                       | [Warmup](algorithms/warmup)                                |                                        |
 |                                                | [Implementation](algorithms/implementation)                | [Easy](algorithms/implementation/easy) |
 |                                                | [Strings](algorithms/strings)                              | [Easy](algorithms/strings/easy)        |
