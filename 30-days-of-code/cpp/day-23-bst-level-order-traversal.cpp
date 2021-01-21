@@ -16,20 +16,18 @@ class Node{
 };
 class Solution{
     public:
-  		Node* insert(Node* root, int data){
+        Node* insert(Node* root, int data){
             if(root==NULL){
                 return new Node(data);
-            }
-            else{
+            } else {
                 Node* cur;
                 if(data<=root->data){
                     cur=insert(root->left,data);
                     root->left=cur;
-                }
-                else{
+                } else {
                    cur=insert(root->right,data);
                    root->right=cur;
-                 }           
+                }           
            return root;
            }
         }
