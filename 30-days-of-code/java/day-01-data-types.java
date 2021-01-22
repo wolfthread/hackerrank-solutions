@@ -12,7 +12,9 @@ public class Solution {
         String s = "HackerRank ";
 		
         Scanner scan = new Scanner(System.in);
-
+        
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         /* Declare second integer, double, and String variables. */
         int my_int;
         double my_double;
@@ -34,6 +36,8 @@ public class Solution {
         /* Concatenate and print the String variables on a new line; 
         	the 's' variable above should be printed first. */
         System.out.println(s + my_string);
+        //---------------------------------------------------------------------------------------
+        // End Solution
 
         scan.close();
     }

@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 
 int main() {
     // Declare a variable named 'input_string' to hold our input.
@@ -9,7 +11,11 @@ int main() {
     // Print a string literal saying "Hello, World." to stdout using cout.
     cout << "Hello, World." << endl;
 
-    // TODO: Write a line of code here that prints the contents of input_string to stdout.
+    // Begin Solution
+    //---------------------------------------------------------------------------------------
     cout << input_string << endl;
+    //---------------------------------------------------------------------------------------
+    // End Solution
+
     return 0;
 }

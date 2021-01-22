@@ -3,6 +3,9 @@ $handle = fopen ("php://stdin","r");
 $i = 4;
 $d = 4.0;
 $s = "HackerRank ";
+
+// Begin Solution
+//---------------------------------------------------------------------------------------
 // Declare second integer, double, and String variables.
 $handle = fopen("php://stdin", "r");
 // Read and save an integer, double, and String to your variables.
@@ -17,4 +20,7 @@ echo number_format($d + $my_double, 1)."\n";
 // The 's' variable above should be printed first.
 echo $s.$my_string."\n";
 fclose($handle);
+//---------------------------------------------------------------------------------------
+// End Solution
+
 ?>
