@@ -12,6 +12,8 @@ class Node {
 class Solution {
 
     public static Node removeDuplicates(Node head) {
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         Node curr_node = head;
         while (curr_node != null && curr_node.next != null) {
             while (curr_node.next != null && curr_node.data == curr_node.next.data) {
@@ -20,6 +22,8 @@ class Solution {
             curr_node = curr_node.next;
         }
         return head;
+        //---------------------------------------------------------------------------------------
+        // End Solution
     }
 
     public static  Node insert(Node head,int data) {

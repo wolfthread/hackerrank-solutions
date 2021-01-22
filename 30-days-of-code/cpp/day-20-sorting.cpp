@@ -9,6 +9,8 @@ int main() {
     for(int a_i = 0; a_i < n; a_i++){
     	cin >> a[a_i];
     }
+    // Begin Solution
+    //---------------------------------------------------------------------------------------
     int numberOfSwaps = 0;
     int endPosition = a.size() - 1;
     int swapPosition;
@@ -28,5 +30,8 @@ int main() {
     cout << "Array is sorted in " << numberOfSwaps << " swaps." << endl;
     cout << "First Element: " << a[0] << endl;
     cout << "Last Element: " << a[a.size() - 1] << endl;
+    //---------------------------------------------------------------------------------------
+    // End Solution
+
     return 0;
 }

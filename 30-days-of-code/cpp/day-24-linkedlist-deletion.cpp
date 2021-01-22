@@ -18,6 +18,8 @@ class Node {
 class Solution {
     public:
         Node* removeDuplicates(Node *head) {
+            // Begin Solution
+            //---------------------------------------------------------------------------------------
             Node *curr_node = head;
             while (curr_node && curr_node->next) {
                 while (curr_node->next && curr_node->data == curr_node->next->data) {
@@ -26,6 +28,8 @@ class Solution {
                 curr_node = curr_node->next;
             }
             return head;
+            //---------------------------------------------------------------------------------------
+            // End Solution
         }
 
         Node* insert(Node *head,int data) {

@@ -1,12 +1,15 @@
 <?php
 
-// Complete the factorial function below.
 function factorial($n) {
+  // Begin Solution
+  //---------------------------------------------------------------------------------------
   if($n == 1){
     return 1;
   } else {
     return factorial($n-1) * $n;
   };
+  //---------------------------------------------------------------------------------------
+  // End Solution
 }
 
 $fptr = fopen(getenv("OUTPUT_PATH"), "w");

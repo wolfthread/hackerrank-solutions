@@ -11,7 +11,8 @@ abstract class Book {
     abstract protected function display();
 }
 
-//Write MyBook class
+// Begin Solution
+//---------------------------------------------------------------------------------------
 class MyBook extends Book {
   private $price;
 
@@ -23,11 +24,12 @@ class MyBook extends Book {
     echo "Title: ".$this->title."Author: ".$this->author."Price: ".$this->price."\n";
   }
 }
+//---------------------------------------------------------------------------------------
+// End Solution
 
 $title=fgets(STDIN);
 $author=fgets(STDIN);
 $price=intval(fgets(STDIN));
 $novel=new MyBook($title,$author,$price);
 $novel->display();
-
 ?>

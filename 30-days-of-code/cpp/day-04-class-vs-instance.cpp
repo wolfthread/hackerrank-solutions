@@ -10,15 +10,22 @@ class Person {
     };
 
     Person::Person(int initialAge) {
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         if (initialAge < 0) {
             cout << "Age is not valid, setting age to 0." << endl;
             age = 0;
         } else {
             age = initialAge;
         }
+        //---------------------------------------------------------------------------------------
+        // End Solution
+
     }
 
     void Person::amIOld() {
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         if (age < 13) {
             cout << "You are young." << endl;
         } else if (age >= 13 && age < 18) {
@@ -26,10 +33,17 @@ class Person {
         } else {
             cout << "You are old." << endl;
         }
+        //---------------------------------------------------------------------------------------
+        // End Solution
+
     }
 
     void Person::yearPasses() {
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         age++;
+        //---------------------------------------------------------------------------------------
+        // End Solution
     }
 
 int main() {
@@ -44,8 +58,7 @@ int main() {
         	p.yearPasses(); 
         }
         p.amIOld();
-      
-		cout << '\n';
+        cout << '\n';
     }
 
     return 0;

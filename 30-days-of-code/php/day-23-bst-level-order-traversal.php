@@ -1,5 +1,5 @@
 <?php
-class Node{
+class Node {
     public $left,$right;
     public $data;
     function __construct($data)
@@ -8,17 +8,15 @@ class Node{
         $this->data = $data;
     }
 }
-class Solution{
+class Solution {
     public function insert($root,$data){
-        if($root==null){
+        if($root==null) {
             return new Node($data);
-        }
-        else{            
+        } else {
             if($data<=$root->data){
                 $cur=$this->insert($root->left,$data);
                 $root->left=$cur;
-            }
-            else{
+            } else {
                 $cur=$this->insert($root->right,$data);
                 $root->right=$cur;
             }
@@ -26,7 +24,9 @@ class Solution{
         }
     }
 
-	public function levelOrder($root){
+	public function levelOrder($root) {
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         // Works with an array
         $arr = array();
         $arr[] = $root;
@@ -45,16 +45,16 @@ class Solution{
             }
             
         }
+        //---------------------------------------------------------------------------------------
+        // End Solution
     }
-
-}//End of Solution
+}
 $myTree=new Solution();
 $root=null;
 $T=intval(fgets(STDIN));
-while($T-->0){
+while($T-->0) {
     $data=intval(fgets(STDIN));
     $root=$myTree->insert($root,$data);
 }
 $myTree->levelOrder($root);
 ?>
-    

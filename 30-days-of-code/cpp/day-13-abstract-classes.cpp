@@ -14,27 +14,15 @@ class Book {
 
 };
 
-// Write your MyBook class here
+// Begin Solution
+//---------------------------------------------------------------------------------------
 class MyBook: public Book {
   private:
     float price;
   public:
-    //   Class Constructor
-    //   
-    //   Parameters:
-    //   title - The book's title.
-    //   author - The book's author.
-    //   price - The book's price.
-    //
-    // Write your constructor here
     MyBook(string title, string author, float price) : Book(title, author){
       this->price = price;
     };
-    
-    //   Function Name: display
-    //   Print the title, author, and price in the specified format.
-    //
-    // Write your method here
     void display(){
       cout << "Title: " << this->title << endl;
       cout << "Author: " << this->author << endl;
@@ -42,6 +30,8 @@ class MyBook: public Book {
     };
     
 };
+//---------------------------------------------------------------------------------------
+// End Solution
 
 int main() {
     string title, author;

@@ -2,14 +2,18 @@
 
 using namespace std;
 
-// Complete the solve function below.
 void solve(double meal_cost, int tip_percent, int tax_percent) {
+    // Begin Solution
+    //---------------------------------------------------------------------------------------
     double tip, tax;
     tip = meal_cost * tip_percent / 100;
     tax = meal_cost * tax_percent / 100;
     double total_cost = meal_cost + tip + tax;
     cout << round(total_cost) << endl;
+    //---------------------------------------------------------------------------------------
+    // End Solution
 }
+
 
 int main() {
     double meal_cost;

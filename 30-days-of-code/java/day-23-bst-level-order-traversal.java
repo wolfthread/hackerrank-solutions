@@ -11,6 +11,8 @@ class Node{
 class Solution{
 
 static void levelOrder(Node root){
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         Queue<Node> q = new LinkedList<>();
         q.add(root);
         
@@ -26,7 +28,8 @@ static void levelOrder(Node root){
                 q.add(curr_node.right);
             }
         }
-      
+        //---------------------------------------------------------------------------------------
+        // End Solution
     }
 
 public static Node insert(Node root,int data){

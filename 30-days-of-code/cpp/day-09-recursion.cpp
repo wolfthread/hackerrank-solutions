@@ -2,13 +2,16 @@
 
 using namespace std;
 
-// Complete the factorial function below.
 int factorial(int n) {
+    // Begin Solution
+    //---------------------------------------------------------------------------------------
     if (n == 1) {
         return 1;
     } else {
         return factorial(n-1) * n;
     };
+    //---------------------------------------------------------------------------------------
+    // End Solution
 }
 
 int main() {

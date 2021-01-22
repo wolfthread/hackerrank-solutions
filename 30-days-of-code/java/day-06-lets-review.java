@@ -7,7 +7,8 @@ import java.util.regex.*;
 public class Solution {
 
     public static void main(String[] args) {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         int nb_tests;
         Scanner scan = new Scanner(System.in);
         nb_tests = scan.nextInt();
@@ -27,5 +28,7 @@ public class Solution {
             };
             System.out.println(String.format("%s%s%s", left_side, " ", right_side));
         }
+        //---------------------------------------------------------------------------------------
+        // End Solution
     }
 }

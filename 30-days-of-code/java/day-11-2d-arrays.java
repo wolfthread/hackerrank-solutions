@@ -8,8 +8,6 @@ import java.util.regex.*;
 
 public class Solution {
 
-
-
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -24,6 +22,9 @@ public class Solution {
                 arr[i][j] = arrItem;
             }
         }
+
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         int max_sum = -63;
 
         // moving hourglass from left to right, then top to bottom
@@ -47,7 +48,8 @@ public class Solution {
         };
 
         System.out.println(max_sum);
-        
+        //---------------------------------------------------------------------------------------
+        // End Solution
 
         scanner.close();
     }

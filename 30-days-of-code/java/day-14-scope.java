@@ -9,10 +9,12 @@ class Difference {
   	private int[] elements;
   	public int maximumDifference;
 
-	// Add your code here
+    // Begin Solution
+    //---------------------------------------------------------------------------------------
     public Difference(int[] elements) {
             this.elements = elements;
     }
+
     void computeDifference() {
         int maxAbsolute = 0;
         int currDiff;
@@ -26,7 +28,10 @@ class Difference {
         }
         maximumDifference = maxAbsolute;
     }
-} // End of Difference class
+    //---------------------------------------------------------------------------------------
+    // End Solution
+
+}
 
 public class Solution {
 

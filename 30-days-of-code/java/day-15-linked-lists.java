@@ -13,6 +13,8 @@ class Node {
 class Solution {
 
     public static  Node insert(Node head,int data) {
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         if (head == null) {
             head = new Node(data);
         } else {
@@ -23,6 +25,8 @@ class Solution {
             current.next = new Node(data);
         }
         return head;
+        //---------------------------------------------------------------------------------------
+        // End Solution
     }
 
 	public static void display(Node head) {

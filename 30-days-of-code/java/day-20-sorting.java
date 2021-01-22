@@ -13,6 +13,8 @@ public class Solution {
         for(int a_i=0; a_i < n; a_i++){
             a[a_i] = in.nextInt();
         }
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         int numberOfSwaps = 0;
         int endPosition = a.length - 1;
         int swapPosition;
@@ -32,5 +34,8 @@ public class Solution {
         System.out.println(String.format("%s%d%s", "Array is sorted in ", numberOfSwaps, " swaps."));
         System.out.println(String.format("%s%d", "First Element: ", a[0]));
         System.out.println(String.format("%s%d", "Last Element: ", a[a.length - 1]));
+        //---------------------------------------------------------------------------------------
+        // End Solution
     }
+
 }

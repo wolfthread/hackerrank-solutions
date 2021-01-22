@@ -1,20 +1,19 @@
 import java.util.*;
 
+
+// Begin Solution
+//---------------------------------------------------------------------------------------
 class Printer <T> {
 
-    /**
-    *    Method Name: printArray
-    *    Print each element of the generic array on a new line. Do not return anything.
-    *    @param A generic array
-    **/
     public static <T> void printArray(T[] array) {
-            for (T element : array) {
-                System.out.println(element);
-            }
+        for (T element : array) {
+            System.out.println(element);
         }
-
+    }
 
 }
+// End Solution
+//---------------------------------------------------------------------------------------
 
 public class Generics {
     

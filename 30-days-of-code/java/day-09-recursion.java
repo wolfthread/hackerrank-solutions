@@ -8,13 +8,16 @@ import java.util.regex.*;
 
 public class Solution {
 
-    // Complete the factorial function below.
     static int factorial(int n) {
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         if (n == 1) {
             return 1;
         } else {
             return factorial(n-1) * n;
         }
+        //---------------------------------------------------------------------------------------
+        // End Solution
     }
 
     private static final Scanner scanner = new Scanner(System.in);

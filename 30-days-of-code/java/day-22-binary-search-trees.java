@@ -11,11 +11,15 @@ class Node{
 class Solution{
 
 	public static int getHeight(Node root){
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         if (root == null) {
             return -1;
         } else {
             return 1 + Math.max(getHeight(root.left), getHeight(root.right));
         } 
+        //---------------------------------------------------------------------------------------
+        // End Solution
     }
 
     public static Node insert(Node root,int data){

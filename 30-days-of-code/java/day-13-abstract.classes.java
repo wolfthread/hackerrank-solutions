@@ -12,34 +12,22 @@ abstract class Book {
     abstract void display();
 }
 
+// Begin Solution
+//---------------------------------------------------------------------------------------
 class MyBook extends Book{
-// Declare your class here. Do not use the 'public' access modifier.
-    // Declare the price instance variable
     private int price;
-    /**   
-    *   Class Constructor
-    *   
-    *   @param title The book's title.
-    *   @param author The book's author.
-    *   @param price The book's price.
-    **/
-    // Write your constructor here
+
     MyBook(String title, String author, int price) {
             super(title, author);
             this.price = price;
     }
-    /**   
-    *   Method Name: display
-    *   
-    *   Print the title, author, and price in the specified format.
-    **/
-    // Write your method here
     void display(){
         System.out.println(String.format("%s%s", "Title: ", this.title));
         System.out.println(String.format("%s%s", "Author: ", this.author));
         System.out.println(String.format("%s%d", "Price: ", this.price));
     };
-}// End class
+//---------------------------------------------------------------------------------------
+// End Solution
 
 public class Solution {
    

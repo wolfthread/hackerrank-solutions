@@ -19,8 +19,7 @@ echo number_format($d + $my_double, 1)."\n";
 // Concatenate and print the String variables on a new line
 // The 's' variable above should be printed first.
 echo $s.$my_string."\n";
-fclose($handle);
 //---------------------------------------------------------------------------------------
 // End Solution
-
+fclose($handle);
 ?>

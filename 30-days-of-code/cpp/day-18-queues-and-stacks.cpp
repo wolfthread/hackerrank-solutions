@@ -5,6 +5,8 @@
 using namespace std;
 
 class Solution {
+    // Begin Solution
+    //---------------------------------------------------------------------------------------
     private:
         //Two instance variables: one for your stack , and one for your queue.
         stack<char> myStack;
@@ -35,7 +37,8 @@ class Solution {
             myQueue.pop();
             return firstChar;
         }
-
+    //---------------------------------------------------------------------------------------
+    // End Solution
 };
 
 int main() {

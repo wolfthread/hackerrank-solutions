@@ -33,6 +33,8 @@ class Solution{
         }
 
 	void levelOrder(Node * root){
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         queue<Node *> q;
         q.push(root);
 
@@ -49,11 +51,13 @@ class Solution{
                 q.push(curr_node->right);
             }
         }
+        //---------------------------------------------------------------------------------------
+        // End Solution
   	}
 
-};//End of Solution
+};
 
-int main(){
+int main() {
     Solution myTree;
     Node* root=NULL;
     int T,data;

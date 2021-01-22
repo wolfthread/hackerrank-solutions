@@ -2,9 +2,9 @@ import java.util.*;
 import java.io.*;
 import java.math.*;
 
-//Write your code here
-
-class NegativeException extends Exception{
+// Begin Solution
+//---------------------------------------------------------------------------------------
+class NegativeException extends Exception {
     public String getMessage() {
         return "n and p should be non-negative";
     }
@@ -19,8 +19,10 @@ class Calculator {
         }
     }
 }
+//---------------------------------------------------------------------------------------
+// End Solution
 
-class Solution{
+class Solution {
 
     public static void main(String[] args) {
     

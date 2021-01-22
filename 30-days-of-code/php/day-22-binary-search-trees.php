@@ -1,5 +1,5 @@
 <?php
-class Node{
+class Node {
     public $left,$right;
     public $data;
     function __construct($data)
@@ -8,7 +8,7 @@ class Node{
         $this->data = $data;
     }
 }
-class Solution{
+class Solution {
     public function insert($root,$data){
         if ($root==null) {
             return new Node($data);
@@ -27,22 +27,24 @@ class Solution{
     }
 
 	public function getHeight($root){
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         if ($root == null) {
             return -1;
         } else {
             return 1 + max($this->getHeight($root->left), $this->getHeight($root->right));
         } 
+        //---------------------------------------------------------------------------------------
+        // End Solution
     }
-
-}//End of Solution
+}
 $myTree=new Solution();
 $root=null;
 $T=intval(fgets(STDIN));
-while($T-->0){
+while($T-->0) {
     $data=intval(fgets(STDIN));
     $root=$myTree->insert($root,$data);
 }
 $height=$myTree->getHeight($root);
 echo $height;
 ?>
-    
