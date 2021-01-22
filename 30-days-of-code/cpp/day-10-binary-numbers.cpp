@@ -6,6 +6,8 @@ int main() {
     int n;
     cin >> n;
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    // Begin Solution
+    //---------------------------------------------------------------------------------------
     int current_count = 0;
     int max_count = 0;
     for(int i=0; n>0; i++) {    
@@ -20,6 +22,8 @@ int main() {
         n = n/2;
     };
     cout << max_count << endl;
+    //---------------------------------------------------------------------------------------
+    // End Solution
      
     return 0;
 }

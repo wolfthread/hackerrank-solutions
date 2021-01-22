@@ -4,6 +4,8 @@
 #include <stdexcept>
 using namespace std;
 
+// Begin Solution
+//---------------------------------------------------------------------------------------
 struct NegativeException : public exception {
     NegativeException () {}
     const char * what() const throw() {
@@ -21,9 +23,11 @@ class Calculator {
             }
         }
 };
+//---------------------------------------------------------------------------------------
+// End Solution
 
-int main()
-{
+
+int main() {
     Calculator myCalculator=Calculator();
     int T,n,p;
     cin>>T;

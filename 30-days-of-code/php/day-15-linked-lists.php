@@ -11,6 +11,8 @@ class Node{
 class Solution{
 
     function insert($head, $data){
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         if ($head == null) {
             $head = new Node($data);
         } else {
@@ -21,6 +23,24 @@ class Solution{
             $current->next = new Node($data);
         }
         return $head;
+        //---------------------------------------------------------------------------------------
+        // End Solution
     }
 
 function display($head){
+        $start=$head;
+        while($start){
+            echo $start->data,' ';
+            $start=$start->next;
+        }
+    }
+}
+$T=intval(fgets(STDIN));
+$head=null;
+$mylist=new Solution();
+while($T-->0){
+    $data=intval(fgets(STDIN));
+    $head=$mylist->insert($head,$data);
+}
+$mylist->display($head);
+?>

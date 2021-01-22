@@ -1,5 +1,7 @@
 <?php
 
+// Begin Solution
+//---------------------------------------------------------------------------------------
 class NegativeException extends Exception {
     
     public function __construct($message, $code=0) {
@@ -22,6 +24,8 @@ class Calculator {
     }
 }
    
+//---------------------------------------------------------------------------------------
+// End Solution
 
 $myCalculator=new Calculator();
 $T=intval(fgets(STDIN));

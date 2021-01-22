@@ -5,6 +5,8 @@ fscanf($handle, "%d",$n);
 $a_temp = fgets($handle);
 $a = explode(" ",$a_temp);
 $a = array_map('intval', $a);
+// Begin Solution
+//---------------------------------------------------------------------------------------
 $numberOfSwaps = 0;
 $endPosition = $n - 1;
 $swapPosition;
@@ -24,7 +26,6 @@ while( $endPosition > 0 ) {
 printf("%s%d%s", "Array is sorted in ", $numberOfSwaps, " swaps.\n");
 printf("%s%d%s", "First Element: ", $a[0], "\n");
 printf("%s%d%s", "Last Element: ", $a[$n- 1], "\n");
-
-
-
+//---------------------------------------------------------------------------------------
+// End Solution
 ?>

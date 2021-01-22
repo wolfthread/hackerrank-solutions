@@ -6,8 +6,12 @@ $inputString = fgets($_fp); // get a line of input from stdin and save it to our
 // Your first line of output goes here
 print("Hello, World.\n");
 
-// Write the second line of output
+// Begin Solution
+//---------------------------------------------------------------------------------------
 print($inputString);
+//---------------------------------------------------------------------------------------
+// End Solution
+
 
 fclose($_fp);
 ?>

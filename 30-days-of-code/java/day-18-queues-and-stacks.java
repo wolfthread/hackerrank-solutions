@@ -2,7 +2,8 @@ import java.io.*;
 import java.util.*;
 
 public class Solution {
-
+    // Begin Solution
+    //---------------------------------------------------------------------------------------
     //Two instance variables: one for your stack , and one for your queue.
     Stack<Character> stack = new Stack<Character>();
     Queue<Character> queue = new LinkedList<Character>();
@@ -26,6 +27,8 @@ public class Solution {
     public char dequeueCharacter() {
         return queue.remove();
     }
+    //---------------------------------------------------------------------------------------
+    // End Solution
 
 
     public static void main(String[] args) {

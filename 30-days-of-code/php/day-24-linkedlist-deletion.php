@@ -12,6 +12,8 @@ class Node {
 class Solution {
 
     function removeDuplicates($head) {
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         $curr_node = $head->data;
         echo $curr_node." ";
         while( $head != null && $head->next != null ) {
@@ -19,12 +21,14 @@ class Solution {
                 $head->next = $head->next->next;
             } else {
                 if( $head->next != null ){
+                    // recursive solution
                     $this->removeDuplicates($head->next);
                 }
                 break;
             }
         }
-        
+        //---------------------------------------------------------------------------------------
+        // End Solution
     }
 
     function insert($head,$data){

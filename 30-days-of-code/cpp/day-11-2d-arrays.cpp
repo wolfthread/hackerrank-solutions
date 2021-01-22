@@ -13,7 +13,8 @@ int main() {
 
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
-
+    // Begin Solution
+    //---------------------------------------------------------------------------------------
     int max_sum = -63;
 
     // moving hourglass from left to right, then top to bottom
@@ -35,8 +36,9 @@ int main() {
             };
         };
     };
-
     cout << max_sum << endl;
+    //---------------------------------------------------------------------------------------
+    // End Solution
 
     return 0;
 }

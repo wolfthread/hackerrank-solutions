@@ -12,9 +12,13 @@ class Difference {
   
   	public:
   	int maximumDifference;
+
+    // Begin Solution
+    //---------------------------------------------------------------------------------------
     Difference(vector<int> elements) {
         this->elements = elements;
     }
+
     void computeDifference() {
         int maxAbsolute = 0;
         int currDiff;
@@ -28,4 +32,29 @@ class Difference {
         }
         maximumDifference = maxAbsolute;
     }
-}; // End of Difference class
+    //---------------------------------------------------------------------------------------
+    // End Solution
+    
+};
+
+int main() {
+    int N;
+    cin >> N;
+    
+    vector<int> a;
+    
+    for (int i = 0; i < N; i++) {
+        int e;
+        cin >> e;
+        
+        a.push_back(e);
+    }
+    
+    Difference d(a);
+    
+    d.computeDifference();
+    
+    cout << d.maximumDifference;
+    
+    return 0;
+}

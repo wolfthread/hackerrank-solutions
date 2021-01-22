@@ -2,7 +2,6 @@
 
 using namespace std;
 
-
 class Person {
 	protected:
 		string firstName;
@@ -24,24 +23,12 @@ class Student :  public Person {
 	private:
 		vector<int> testScores;  
 	public:
-        /*	
-        *   Class Constructor
-        *   
-        *   Parameters:
-        *   firstName - A string denoting the Person's first name.
-        *   lastName - A string denoting the Person's last name.
-        *   id - An integer denoting the Person's ID number.
-        *   scores - An array of integers denoting the Person's test scores.
-        */
-        // Write your constructor here
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         Student(string firstName, string lastName, int identification, vector<int> testScores): Person( firstName, lastName, identification){
             this->testScores = testScores;
         }
-        /*	
-        *   Function Name: calculate
-        *   Return: A character denoting the grade.
-        */
-        // Write your function here
+
         char calculate(){
             int sum = 0;
             
@@ -63,6 +50,8 @@ class Student :  public Person {
                 return 'T';
             }
         };
+        //---------------------------------------------------------------------------------------
+        // End Solution
 };
 
 int main() {

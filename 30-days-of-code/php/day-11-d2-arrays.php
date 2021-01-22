@@ -9,6 +9,8 @@ for ($i = 0; $i < 6; $i++) {
     $arr[] = array_map('intval', preg_split('/ /', $arr_temp, -1, PREG_SPLIT_NO_EMPTY));
 }
 
+// Begin Solution
+//---------------------------------------------------------------------------------------
 $max_sum = -63;
 
 // moving hourglass from left to right, then top to bottom
@@ -29,10 +31,12 @@ for ($move_ver = 0; $move_ver < 4; $move_ver ++) {
           $max_sum = $sum;
       };
   };
+//---------------------------------------------------------------------------------------
+// End Solution
+
 };
 
 echo $max_sum;
 
 fclose($stdin);
-
 ?>

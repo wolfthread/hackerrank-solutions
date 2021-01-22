@@ -1,6 +1,8 @@
 <?php
 
 class Solution {
+    // Begin Solution
+    //---------------------------------------------------------------------------------------
     public $myQueue, $myStack;
 
     public function __construct() {
@@ -26,8 +28,11 @@ class Solution {
     function dequeueCharacter() {
         return $this->myQueue->dequeue();
     }
+    //---------------------------------------------------------------------------------------
+    // End Solution
 
 }
+
 
 // read the string s
 $s = fgets(STDIN);

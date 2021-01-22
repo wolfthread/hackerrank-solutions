@@ -13,19 +13,41 @@ class Node {
 
 class Solution{
     public:
-
-      Node* insert(Node *head,int data) {
-        if (head == NULL) {
-            head = new Node(data);
-        } else {
-            Node *current = head;
-            while (current->next != NULL) {
-                current = current->next;
+        Node* insert(Node *head,int data) {
+            // Begin Solution
+            //---------------------------------------------------------------------------------------
+            if (head == NULL) {
+                head = new Node(data);
+            } else {
+                Node *current = head;
+                while (current->next != NULL) {
+                    current = current->next;
+                }
+                current->next = new Node(data);
             }
-            current->next = new Node(data);
+            return head;
+            //---------------------------------------------------------------------------------------
+            // End Solution
         }
-        return head;
-      }
+    
+        void display(Node *head) {
+          Node *start=head;
+          while(start)
+          {
+              cout<<start->data<<" ";
+              start=start->next;
+          }
+        }
+};
 
-      void display(Node *head)
+int main() {
+	Node* head=NULL;
+  	Solution mylist;
+    int T,data;
+    cin>>T;
+    while(T-->0){
+        cin>>data;
+        head=mylist.insert(head,data);
+    }	
+	mylist.display(head);
 }

@@ -36,14 +36,18 @@ class Solution{
         }
 
 		int getHeight(Node* root){
+            // Begin Solution
+            //---------------------------------------------------------------------------------------
             if (root == NULL) {
                 return -1;
             } else {
                 return 1 + max(getHeight(root->left), getHeight(root->right));
             } 
+            //---------------------------------------------------------------------------------------
+            // End Solution
         }
 
-}; //End of Solution
+};
 
 int main() {
     Solution myTree;

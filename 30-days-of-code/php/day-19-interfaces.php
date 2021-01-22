@@ -3,11 +3,10 @@ interface AdvancedArithmetic{
     public function divisorSum($n);
 }
 
-/*
- * Write your code here
- */
 class Calculator implements AdvancedArithmetic {
     function divisorSum($n) {
+        // Begin Solution
+        //---------------------------------------------------------------------------------------
         $sum = 0;
         for($i = 1; $i < $n + 1; $i++) {
             if ($n % $i == 0) {
@@ -15,7 +14,10 @@ class Calculator implements AdvancedArithmetic {
             }
         }
         return $sum;
+        //---------------------------------------------------------------------------------------
+        // End Solution
     }
 }
 
 $n=intval(fgets(STDIN));
+?>
