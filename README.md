@@ -17,5 +17,6 @@ Most of my [HackerRank](https://www.hackerrank.com/wolfthread) solutions.
 | [C](c)                                         | [Introduction](c/introduction)                    |                                        |
 |                                                | [Conditional And Loops](c/conditionals-and-loops) |                                        |
 | [C++](cpp)                                     | [Introduction](cpp/introduction)                  |                                        |
+|                                                | [Strings](cpp/strings)                            |                                        |
 | [Java](java)                                   | [Introduction](java/introduction)                 |                                        |
 | [Project Euler](project-euler)                 |                                                   |                                        |
