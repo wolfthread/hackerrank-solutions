@@ -21,7 +21,7 @@ int main() {
                 thisAND = i & j;
                 thisOR = i | j;
                 thisXOR = i ^ j;
-                if (i < j && thisAND > maxAND && thisAND < k) {
+                if (thisAND > maxAND && thisAND < k) {
                     maxAND = thisAND;
                 }
                 if (thisOR > maxOR && thisOR < k) {
