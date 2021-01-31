@@ -16,6 +16,8 @@ Most of my [HackerRank](https://www.hackerrank.com/wolfthread) solutions.
 |                                                | [Sorting](algorithms/sorting)                     | [Easy](algorithms/sorting/easy)        |
 | [C](c)                                         | [Introduction](c/introduction)                    |                                        |
 |                                                | [Conditional And Loops](c/conditionals-and-loops) |                                        |
+|                                                | [Functions](c/functions)                          |                                        |
+|                                                | [Structs and Enum](c/structs-and-enum)            |                                        |
 | [C++](cpp)                                     | [Introduction](cpp/introduction)                  |                                        |
 |                                                | [Strings](cpp/strings)                            |                                        |
 | [Java](java)                                   | [Introduction](java/introduction)                 |                                        |
