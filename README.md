@@ -20,5 +20,6 @@ Most of my [HackerRank](https://www.hackerrank.com/wolfthread) solutions.
 |                                                | [Structs and Enum](c/structs-and-enum)            |                                        |
 | [C++](cpp)                                     | [Introduction](cpp/introduction)                  |                                        |
 |                                                | [Strings](cpp/strings)                            |                                        |
+|                                                | [Classes](cpp/classes)                            |                                        |
 | [Java](java)                                   | [Introduction](java/introduction)                 |                                        |
 | [Project Euler](project-euler)                 |                                                   |                                        |
