@@ -22,4 +22,5 @@ Most of my [HackerRank](https://www.hackerrank.com/wolfthread) solutions.
 |                                                | [Strings](cpp/strings)                            |                                        |
 |                                                | [Classes](cpp/classes)                            |                                        |
 | [Java](java)                                   | [Introduction](java/introduction)                 |                                        |
+| [Mathematics](mathematics)                     | [Fundamentals](mathematics/fundamentals)          |                                        |
 | [Project Euler](project-euler)                 |                                                   |                                        |
