@@ -1,4 +1,6 @@
 def print_rangoli(size):
+    # Begin Solution
+    #---------------------------------------------------------------------------------------
     buffer = []
     for i in range(size):
         buffer.append('-'+chr(i + 97))
@@ -22,6 +24,8 @@ def print_rangoli(size):
     store.reverse()
     for line in store:
         print(line)
+    #---------------------------------------------------------------------------------------
+    # End Solution
 
 if __name__ == '__main__':
     n = int(input())
