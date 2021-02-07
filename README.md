@@ -24,3 +24,4 @@ Most of my [HackerRank](https://www.hackerrank.com/wolfthread) solutions.
 | [Java](java)                                   | [Introduction](java/introduction)                 |                                        |
 | [Mathematics](mathematics)                     | [Fundamentals](mathematics/fundamentals)          | [Easy](mathematics/fundamentals/easy)  |
 | [Project Euler](project-euler)                 |                                                   |                                        |
+| [Python](python)                               | [Strings](python/strings)                         | [Easy](python/strings/easy)            |
