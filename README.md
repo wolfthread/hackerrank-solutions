@@ -21,7 +21,7 @@ Most of my [HackerRank](https://www.hackerrank.com/wolfthread) solutions.
 | [C++](cpp)                                     | [Introduction](cpp/introduction)                  |                                        |
 |                                                | [Strings](cpp/strings)                            |                                        |
 |                                                | [Classes](cpp/classes)                            |                                        |
-|                                                | [Inheritance](cpp/inheritance)                    | [Easy](cpp/inheritance)                |
+|                                                | [Inheritance](cpp/inheritance)                    | [Easy](cpp/inheritance/easy)           |
 | [Java](java)                                   | [Introduction](java/introduction)                 |                                        |
 | [Mathematics](mathematics)                     | [Fundamentals](mathematics/fundamentals)          | [Easy](mathematics/fundamentals/easy)  |
 | [Project Euler](project-euler)                 |                                                   |                                        |
