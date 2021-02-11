@@ -19,8 +19,8 @@ Most of my [HackerRank](https://www.hackerrank.com/wolfthread) solutions.
 |                                                | [Functions](c/functions)                          |                                        |
 |                                                | [Structs and Enum](c/structs-and-enum)            |                                        |
 | [C++](cpp)                                     | [Introduction](cpp/introduction)                  |                                        |
-|                                                | [Strings](cpp/strings)                            |                                        |
-|                                                | [Classes](cpp/classes)                            |                                        |
+|                                                | [Strings](cpp/strings)                            | [Easy](cpp/strings/easy)               |
+|                                                | [Classes](cpp/classes)                            | [Easy](cpp/classes/easy)               |
 |                                                | [Inheritance](cpp/inheritance)                    | [Easy](cpp/inheritance/easy)           |
 | [Java](java)                                   | [Introduction](java/introduction)                 |                                        |
 | [Mathematics](mathematics)                     | [Fundamentals](mathematics/fundamentals)          | [Easy](mathematics/fundamentals/easy)  |
