@@ -22,6 +22,7 @@ Most of my [HackerRank](https://www.hackerrank.com/wolfthread) solutions.
 |                                                | [Strings](cpp/strings)                            | [Easy](cpp/strings/easy)               |
 |                                                | [Classes](cpp/classes)                            | [Easy](cpp/classes/easy)               |
 |                                                | [Inheritance](cpp/inheritance)                    | [Easy](cpp/inheritance/easy)           |
+|                                                | [STL](cpp/STL)                                    | [Easy](cpp/STL/easy)                   |
 |                                                | [Other Concepts](cpp/other-concepts)              | [Easy](cpp/other-concepts/easy)        |
 | [Java](java)                                   | [Introduction](java/introduction)                 |                                        |
 | [Mathematics](mathematics)                     | [Fundamentals](mathematics/fundamentals)          | [Easy](mathematics/fundamentals/easy)  |
