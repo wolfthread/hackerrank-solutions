@@ -25,6 +25,7 @@ Most of my [HackerRank](https://www.hackerrank.com/wolfthread) solutions.
 |                                                | [STL](cpp/STL)                                    | [Easy](cpp/STL/easy)                   |
 |                                                | [Other Concepts](cpp/other-concepts)              | [Easy](cpp/other-concepts/easy)        |
 | [Java](java)                                   | [Introduction](java/introduction)                 |                                        |
+| [Java](java)                                   | [Data Structures](java/data-structures)           | [Easy](java/data-structures/easy)      |
 | [Mathematics](mathematics)                     | [Fundamentals](mathematics/fundamentals)          | [Easy](mathematics/fundamentals/easy)  |
 | [Project Euler](project-euler)                 |                                                   |                                        |
 | [Python](python)                               | [Itertools](python/itertools)                     | [Easy](python/itertools/easy)          |
