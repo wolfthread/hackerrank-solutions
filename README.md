@@ -31,3 +31,4 @@ Most of my [HackerRank](https://www.hackerrank.com/wolfthread) solutions.
 | [Project Euler](project-euler)                 |                                                   |                                        |
 | [Python](python)                               | [Itertools](python/itertools)                     | [Easy](python/itertools/easy)          |
 |                                                | [Strings](python/strings)                         | [Easy](python/strings/easy)            |
+| [SQL](sql)                                     | [Basic Select](sql/basic-select)                  |                                        |
