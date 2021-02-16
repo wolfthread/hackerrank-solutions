@@ -7,6 +7,6 @@ How many elements are present in A U B?
 
 ```
 
-# Answer
+## Answer
 
-## 8
+8

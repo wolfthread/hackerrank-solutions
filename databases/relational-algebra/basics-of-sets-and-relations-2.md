@@ -6,6 +6,6 @@ Set B = {2,3,4,5,6,7,8}
 How many elements are present in A &cap B?
 ```
 
-# Answer
+## Answer
 
-## 5
+5
