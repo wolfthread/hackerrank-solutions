@@ -3,7 +3,7 @@
 """
 This challenge has a different feel than the others and I found it was very interesting to learn about the loop invariant.
 
-We are given a code that has an error in it and we need to code a loop invariant method in order to find what the issue is.
+We are given a code that has an error in it and we need to implement a loop invariant method in order to find what the issue is.
 
 So we add the following method to the code:
 
@@ -15,7 +15,7 @@ def isSorted(arr, target):
     return True
 ---
 
-and then we add this line at the end of the for loop of the insertion_sort() method:
+and then we add this line at the end of the for loop of the insertion_sort() method in order to call our loop invariant:
 
 ---
 if not isSorted(l, j+1):
@@ -25,7 +25,7 @@ if not isSorted(l, j+1):
 
 We are thus set to run the code with our loop invariant within it.
 
-Upon running the code, with the input 
+Upon running the code, with the input:
 
 ---
 6
