@@ -25,6 +25,7 @@ Most of my [HackerRank](https://www.hackerrank.com/wolfthread) solutions.
 |                                                  | [STL](cpp/STL)                                      | [Easy](cpp/STL/easy)                             |
 |                                                  | [Other Concepts](cpp/other-concepts)                | [Easy](cpp/other-concepts/easy)                  |
 | [Databases](databases)                           | [Relational Algebra](databases/relational-algebra)  |                                                  |
+| [Data Structures](data-structures)               | [Arrays](data-structures/arrays)                    | [Easy](data-structures/easy)                     |
 | [Functional Programming](functional-programming) | [Introduction](functional-programming/introduction) | [Easy](functional-programming/introduction/easy) |
 | [Java](java)                                     | [Introduction](java/introduction)                   |                                                  |
 |                                                  | [Data Structures](java/data-structures)             | [Easy](java/data-structures/easy)                |
