@@ -18,11 +18,7 @@ int main()
         cin >> queries[i];
     }
     for (int i = 0; i < n; i ++) {
-        if (i < k) {
-            rotated[i] = arr[n - k + i];
-        } else {
-            rotated[i] = arr[i - k];
-        }
+        rotated[(i + k) % n] = arr[i]; //  modulo solution
     }
     for (int i = 0 ; i < q; i ++) {
         cout << rotated[queries[i]] << endl;
