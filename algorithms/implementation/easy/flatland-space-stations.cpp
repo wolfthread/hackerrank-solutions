@@ -11,7 +11,6 @@ int main() {
         cout << 0 << endl;
     }
     else {
-
         int stations[m];
         for (int i = 0; i < m; i++) {
             cin >> stations[i];
